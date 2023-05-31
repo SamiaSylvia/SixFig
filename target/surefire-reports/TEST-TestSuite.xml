@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.338" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="/Users/samiasylvia/.cache/selenium/chromedriver/mac64/111.0.5563.64/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/samiasylvia/eclipse-workspace/SixFigure/target/test-classes:/Users/samiasylvia/eclipse-workspace/SixFigure/target/classes:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/samiasylvia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/samiasylvia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/samiasylvia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/samiasylvia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/samiasylvia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/samiasylvia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/samiasylvia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/samiasylvia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/samiasylvia/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/samiasylvia/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/samiasylvia/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/samiasylvia/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/samiasylvia/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/samiasylvia/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-java/7.11.0/cucumber-java-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/samiasylvia/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/samiasylvia/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-testng/7.11.0/cucumber-testng-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/samiasylvia/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/samiasylvia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/samiasylvia/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/samiasylvia/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/samiasylvia/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/samiasylvia/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/samiasylvia/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/samiasylvia/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/samiasylvia/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/samiasylvia/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/samiasylvia/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/samiasylvia/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/samiasylvia/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/samiasylvia/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/samiasylvia/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/samiasylvia/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre/lib"/>
+    <property name="sun.java.command" value="/Users/samiasylvia/eclipse-workspace/SixFigure/target/surefire/surefirebooter-20230402132401171_3.jar /Users/samiasylvia/eclipse-workspace/SixFigure/target/surefire 2023-04-02T13-24-00_293-jvmRun1 surefire-20230402132401171_1tmp surefire_0-20230402132401171_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/samiasylvia/eclipse-workspace/SixFigure/target/test-classes:/Users/samiasylvia/eclipse-workspace/SixFigure/target/classes:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/samiasylvia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/samiasylvia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/samiasylvia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/samiasylvia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/samiasylvia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/samiasylvia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/samiasylvia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/samiasylvia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/samiasylvia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/samiasylvia/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/samiasylvia/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/samiasylvia/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/samiasylvia/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/samiasylvia/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/samiasylvia/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-java/7.11.0/cucumber-java-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/samiasylvia/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/samiasylvia/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/samiasylvia/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/samiasylvia/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/samiasylvia/.m2/repository/io/cucumber/cucumber-testng/7.11.0/cucumber-testng-7.11.0.jar:/Users/samiasylvia/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/samiasylvia/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/samiasylvia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/samiasylvia/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/samiasylvia/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/samiasylvia/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/samiasylvia/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/samiasylvia/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/samiasylvia/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/samiasylvia/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/samiasylvia/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/samiasylvia/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/samiasylvia/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/samiasylvia/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/samiasylvia/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/samiasylvia/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/samiasylvia/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/samiasylvia"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Users/samiasylvia/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/samiasylvia/eclipse-workspace/SixFigure"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/samiasylvia/eclipse-workspace/SixFigure/target/surefire/surefirebooter-20230402132401171_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="samiasylvia"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="/Users/samiasylvia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/nd/nwfjlgc564j5896k0ly038x40000gn/T/"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="/Users/samiasylvia/eclipse-workspace/SixFigure"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/samiasylvia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;search for books&quot;, &quot;Perform a search on amazon.com&quot;](1)" classname="com.mit.runners.TestRunnerAll" time="5.448">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 44610
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 02, 2023 1:24:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;search for books&quot;, &quot;Perform a search on amazon.com&quot;](2)" classname="com.mit.runners.TestRunnerAll" time="3.76">
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 36571
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 02, 2023 1:24:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;search for books&quot;, &quot;Perform a search on amazon.com&quot;](1)" classname="com.mit.runners.TestRunnerSmokeTests" time="4.206">
+    <system-err><![CDATA[&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://cucumber.io/docs/cucumber/environment-variables/&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 14004
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 02, 2023 1:24:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;search for books&quot;, &quot;Perform a search on amazon.com&quot;](2)" classname="com.mit.runners.TestRunnerSmokeTests" time="4.196">
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 30207
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 02, 2023 1:24:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
